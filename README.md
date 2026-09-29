@@ -1,104 +1,59 @@
-- 👋 Hi, I’m Chinnaswamy, Master's student from the University of Siegen, Germany.
-  
-# 🚀 Hi there, I'm Chinnaswamy Purra!
+# Chinnaswamy Purra
 
-### 🧠 AI Engineer | Agentic Systems Architect | Bridging Physical Systems & Intelligent AI
+### Applied AI Engineer · Multimodal AI Researcher · Machine Learning Systems
 
-> *"I don't just build AI demos; I engineer reliable, evaluated, and production-grade AI systems that gracefully handle the edge cases of the real world."*
+I build reliable AI systems that connect modern machine learning with practical software and physical-world constraints. My current research focuses on lightweight multimodal GUI agents for automotive infotainment systems, including vision-language model adaptation, UI grounding, action prediction, and history-aware reasoning.
 
-I am an Applied AI Engineer and Researcher with a deep passion for transforming complex, ambiguous problems into robust software. With a foundational background in **Mechatronics and Industrial Automation**, I possess a unique perspective: I understand how AI interacts with physical systems, real-time sensor data, and strict hardware constraints. 
+My work combines model fine-tuning with production-oriented engineering: evaluation, observability, retrieval, guardrails, and efficient deployment.
 
-Currently, I specialize in architecting **Multi-Agent Workflows**, **Advanced RAG Systems**, and **Edge-Deployed Vision-Language Models (VLMs)**. I am a strong advocate for "AI with Guardrails"—building systems that are not just smart, but safe, observable, and deterministic when they need to be.
+## Current focus
 
----
+- Multimodal GUI agents for automotive infotainment interfaces.
+- Vision-language model fine-tuning with SFT, LoRA/PEFT, and offline GRPO.
+- UI grounding, action prediction, and history-aware reasoning.
+- Reward modeling, process supervision, and robust evaluation.
+- Agentic RAG systems for structured analysis of complex documents.
+- Efficient inference and deployment of compact AI models.
 
-## 🛠️ Core Expertise & Tech Stack
+## Selected capabilities
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-</p>
+| Area | Technologies and methods |
+|---|---|
+| Machine learning | Python, PyTorch, Hugging Face, Transformers, TRL, PEFT, LoRA |
+| Multimodal AI | Vision-language models, visual grounding, GUI agents, action classification |
+| Reinforcement learning | GRPO, offline RL, reward functions, process reward models |
+| Agentic systems | LangGraph, LangChain, tool calling, memory, query decomposition |
+| Retrieval and data | Agentic RAG, hybrid search, OpenSearch, PostgreSQL, pgvector, Docling |
+| Engineering | FastAPI, SQLAlchemy, asyncio, Docker, REST APIs, CI/CD |
+| Evaluation and operations | RAGAS, Langfuse, automated evaluation, experiment tracking, model observability |
 
-### 🤖 Agentic AI & LLM Orchestration
-* **Frameworks:** LangGraph, LangChain, Model Context Protocol (MCP), Hugging Face (TRL, PEFT, Unsloth).
-* **Architecture:** Multi-Agent Hierarchical Systems, Dynamic Tool-Calling, Stateful Memory, LLM-as-a-Judge Evaluation.
-* **Models:** Fine-tuning VLMs/LLMs (LoRA, GRPO), Prompt Engineering, Quantization for Edge Deployment.
+## Featured work
 
-### 📚 Advanced RAG & Knowledge Systems
-* **Pipelines:** Agentic RAG, Dynamic Query Decomposition, Complex Document Extraction (Docling).
-* **Data & Search:** Hybrid Search (Vector + BM25), PostgreSQL (pgvector), OpenSearch, Vector Databases.
-* **Quality & Observability:** RAGAS Evaluation, Langfuse Tracing, "Smart Degradation" Protocols (Deterministic Guardrails).
+### Lightweight multimodal GUI agents
+Research and development of compact vision-language agents for automotive infotainment interfaces. The work includes dataset preparation, supervised fine-tuning, parameter-efficient adaptation, action prediction, history-aware inputs, reward design, and systematic evaluation.
 
-### ⚙️ Backend Engineering & MLOps
-* **Backend:** FastAPI, Asyncio, SQLAlchemy, REST APIs, Microservices Architecture.
-* **DevOps & Cloud:** Docker, CI/CD Pipelines, Azure, AWS, HPC Cluster Training (DDP).
-* **Resilience:** Automated Retries (Tenacity), Graceful Fallbacks, GDPR-Compliant & LLM-Agnostic Architectures.
+### Agentic financial analysis system
+An agentic RAG application for analysing European company financial reports. The system combines query planning, ticker-filtered hybrid retrieval, chunk validation, critic-based answer review, conversational memory, resilient PDF ingestion, and Langfuse tracing.
 
-### 🏭 Physical AI, RL & Sensorics
-* **Robotics & Automation:** Reinforcement Learning (Stable Baselines3, Optuna), Digital Twin Simulations (Unity).
-* **Data & Hardware:** Real-time Sensor Data (MQTT), Machine Vision, Edge AI Optimization.
+## Engineering principles
 
----
+- **Measure before optimizing:** Use reproducible experiments and task-specific evaluation rather than relying only on qualitative demos.
+- **Design for uncertainty:** Prefer evidence-grounded responses, explicit limitations, and safe fallback behaviour.
+- **Keep systems modular:** Separate data, models, retrieval, evaluation, and application logic so components can be tested and replaced independently.
+- **Build for constraints:** Consider latency, memory, compute, reliability, and deployment requirements from the beginning.
 
-## 💡 My Engineering Philosophy
+## Education
 
-1. **Evaluation Over Demos:** A model is only as good as its worst edge case. I build rigorous evaluation loops (RAGAS, automated testing) to measure real-world performance, not just benchmark scores.
-2. **Graceful Degradation:** AI should know what it doesn't know. I design systems that intercept missing data or low-confidence outputs and fail safely, rather than hallucinating.
-3. **Modular & LLM-Agnostic:** I build infrastructure, not vendor lock-in. My architectures are containerized and designed to swap underlying models (OpenAI, DeepSeek, Local LLMs) seamlessly based on cost, latency, or compliance needs.
+- Master's research in multimodal AI and GUI agents, Germany.
+- Background in Mechatronics and Industrial Automation.
 
----
+## Connect
 
-## 🔭 Current Focus & Interests
-
-* **Agentic Workflows:** Exploring the limits of autonomous multi-agent collaboration and custom MCP server integrations.
-* **Edge AI & VLMs:** Optimizing Vision-Language Models for real-time, resource-constrained environments (Quantization, KV-cache optimization).
-* **Physical AI:** Bridging the gap between large foundation models and real-world robotic/industrial actuation.
-* **AI-Native Development:** Leveraging tools like Cursor, Claude Code, and Copilot to 10x backend development velocity.
-
----
-
-## 📊 GitHub Analytics
+- Email: [chinnaswamy.cspurra@gmail.com](mailto:chinnaswamy.cspurra@gmail.com)
+- LinkedIn: [Add your LinkedIn profile](https://www.linkedin.com/)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chinnaswamypurra&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chinnaswamypurra&theme=radical&hide_border=true" alt="GitHub Streak" height="165"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chinnaswamypurra&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165"/>
-</p>
-
-*(Note: Update `chinnaswamypurra` in the image URLs with your actual GitHub username)*
-
----
-
-## 🌍 Beyond the Code
-
-When I'm not architecting agent workflows or fine-tuning models, you can find me:
-* 🏸 **Playing Badminton:** Regular active player in my local club.
-* 🥾 **Trekking:** Enthusiastic outdoor hiker exploring new trails.
-* 📚 **Reading:** Deep diving into technology trends, system design, and self-development.
-
----
-
-## 📬 Let's Connect!
-
-I'm always open to discussing AI architecture, Agentic systems, or new opportunities.
-
-<p align="left">
-  <a href="mailto:chinnaswamy.cspurra@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="https://github.com/chinnaswamypurra">
+    <img src="https://github-readme-stats.vercel.app/api?username=chinnaswamypurra&show_icons=true&hide_border=true&include_all_commits=true" alt="Chinnaswamy Purra's GitHub statistics" />
   </a>
-  <a href="https://www.linkedin.com/in/deinprofil/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
-
-*(Note: Update the LinkedIn URL with your actual profile link)*
-
----
-<p align="center">
-  <i>"The best way to predict the future of AI is to engineer it." </i>
 </p>

@@ -1,6 +1,6 @@
 # Hi, I'm Chinnaswamy Purra 👋
 
-**Applied AI Engineer · Multimodal AI Researcher**
+**Applied AI Engineer · Multimodal AI Researcher · Machine Learning Systems**
 
 I develop and evaluate AI systems for real-world applications. My master's research focuses on lightweight vision-language GUI agents for automotive infotainment: teaching models to understand interface screenshots, use interaction history, and predict the right action under practical compute constraints.
 
@@ -30,7 +30,7 @@ I also build agentic retrieval systems, with an emphasis on grounded answers, me
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&amp;logo=streamlit&amp;logoColor=white" alt="Streamlit" />
 </p>
 
-*Methods: SFT · LoRA/PEFT · GRPO · multimodal evaluation · hybrid search · RAG*
+*Methods: SFT · LoRA/PEFT · GRPO · multimodal evaluation · hybrid search · RAG · Inference · Deployment*
 
 ## Selected work
 
@@ -46,7 +46,7 @@ Built a document-analysis system for European company reports using query decomp
 
 <p>
   <a href="mailto:chinnaswamy.cspurra@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Chinnaswamy" /></a>
-  <a href="https://www.linkedin.com/in/deinprofil/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn profile (replace placeholder URL)" /></a>
+  <a href="https://www.linkedin.com/in/chinnaswamy-purra/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn profile (replace placeholder URL)" /></a>
 </p>
 
 <!-- Replace the LinkedIn URL above with your real profile before publishing. -->
